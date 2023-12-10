@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel='stylesheet' href='register.css' type='text/css' />
+    <script defer src="register.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Amaz Fit</h1>
+        <nav>
+          <ul>
+            <li><a href="home.html">Ballina</a></li>
+            <li><a href="product.html">Produktet</a></li>
+            <li><a href="contact.html">Na Kontaktoni</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <main>
+        <section id="register-form">
+          <div id="formulari">
+              <h1>Regjistrohu</h1>
+              <form>
+                  <ul>
+                      <li><label>Emri:</label></li>
+                      <li><input type="text" placeholder="Shënoni emrin" id="emri" size="20" required/></li>
+                      <li><label>Mbiemri:</label></li>
+                      <li><input type="text" placeholder="Shënoni mbemrin" id="mbiemri" size="20" required/></li>
+                      <li><label>Perdoruesi:</label></li>
+                      <li><input type="text" placeholder="Username" id="userid" size="20" required minlength="8" maxlength="15" title="Username should be between 8 and 15 characters" /></li>
+                      <li><label>Email:</label></li>
+                      <li><input type="text" placeholder="Shënoni email" id="email" size="20" required /></li>
+                      <li><label>Fjalkalimi:</label>
+                      <li><input type="password" placeholder="Shënoni fjalkalimin" id="pass" size="20" required minlength="8" title="password should be between 8 " /></li>
+                      <li><label>Përseritni fjalkalimin:</label></li>
+                      <li><input type="password" placeholder="Përseritni fjalkalimin" id="pass2" size="20" required /></li>
+                      <li><input type="submit" value="Regjistrohu" id="submit" /></li>
+                      <span class="psw">Keni llogari? <a href="login.html">Log In</a></span>
+                  </ul>
+              </form>
+          </div>
+        </section>
+      </main>
+
+    <footer>
+        <p>&copy; 2023 Amaz Fit. Të gjitha të drejtat e rezervuara.</p>
+      </footer>
+</body>
+</html>
