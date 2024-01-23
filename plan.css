@@ -4,6 +4,11 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: beige;
+    
+    background-image: url('bg-image-small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
   header {
@@ -21,6 +26,35 @@ body {
   nav a {
     text-decoration: none;
     color: #fff;
+  }
+
+  section {
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  #plan-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .product {
+    width: calc(33.33% - 20px);
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .product:hover {
+    transform: scale(1.05);
   }
 
   footer {
