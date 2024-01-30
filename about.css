@@ -23,6 +23,18 @@ body {
     color: #fff;
   }
 
+  img {
+    width: 50%;
+    height: 400px;
+    border: 0;
+    border-radius: 8px;
+  }
+
+  section {
+    text-align: center;
+    margin: 50px 0;
+  }
+
   footer {
     background-color: #333;
     color: #fff;
